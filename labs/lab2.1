@@ -2,7 +2,7 @@ import random # для рандомных чисел
 import math # для вычисления факториала и арккосинуса
 print("Lab2.1 0022-04")
 i = int(1)
-chars = set('0123456789$,.')
+chars = set('0123456789$,.-')
 while i < 2:
  print ("""
 ______________________________________________________
@@ -83,23 +83,23 @@ ______________________________________________________
      print ("Random [",r1,";",r2,"] = ",random.uniform(r1, r2))
  elif sign == '8': #factorial
      F = input("Enter the integer: ")
-     while any((q not in chars) for q in F):
-        F = input("You should enter the number: ")
-     F = float(F)
-     while F % 1 > 0:
+     while any((q not in chars) for q in F) or float(F) % 1 > 0:
+        if any((q not in chars) for q in F):
+           F = input("You should enter the number: ")
+        elif float(F) % 1 > 0:
           F = input("You need to enter the integer: ")
-          F = float(F)
      F = int(F)
      print(F, "! = ", math.factorial(F))
  elif sign == '9': # acos
      X = input("Enter the number (-1;1): ")
-     while any((q not in chars) for q in X):
-          X = input("You should enter the number: ")
+     while any((q not in chars) for q in X) or (float(X) > 1 or float(X) < -1):
+          if any((q not in chars) for q in X):
+             X = input("You should enter the number: ")
+          elif float(X) > 1 or float(X) < -1:
+             print ("You number must be between 0 and 1 to find acos.")
+             X = input("Enter the number (-1;1): ")
      X = float(X)
-     while X > 1 or X < 0:
-          print ("You number must be between 0 and 1 to find acos.")
-          X = input("Enter the number (-1;1): ")
-          X = float(X)
-     print("acos(X) = ",math.acos(X), "rad")
+     print("acos(",X,") = ",math.acos(X), "rad")
+     print("acos(",X,") = ", math.acos(X)*180/math.pi,"°")
  elif sign == '10':
       exit()
