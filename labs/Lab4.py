@@ -1,4 +1,4 @@
-print("Lab2.2 0022-04")
+print("Lab4 0022-04")
 
 word1 = str(input("First vegetable: "))
 word2 = str(input("Second vegetable: "))
