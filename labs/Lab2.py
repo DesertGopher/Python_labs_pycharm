@@ -1,4 +1,4 @@
-print("Lab1.2 0022-04")
+print("Lab2 0022-04")
 string = input("Enter your text\n")
 i = int(0)
 l = int(len(string))
