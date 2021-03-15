@@ -1,6 +1,6 @@
 import random # для рандомных чисел
 import math # для вычисления факториала и арккосинуса
-print("Lab2.1 0022-04")
+print("Lab3 0022-04")
 i = int(1)
 chars = set('0123456789$,.-')
 while i < 2:
