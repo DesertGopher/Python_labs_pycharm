@@ -76,8 +76,12 @@ ______________________________________________________
      while any((q not in chars) for q in r1):
         r1 = input("You should enter the number: ")
      r2 = input("Right: ")
-     while any((q not in chars) for q in r2):
-        r2 = input("You should enter the number: ")
+     while (any((q not in chars) for q in r2)) or (float(r2) < float(r1)):
+         while any((q not in chars) for q in r2):
+             r2 = input("You should enter the number: ")
+         while float(r2) < float(r1):
+            print ("Right border must be more than left one.")
+            r2 = input("Right:")
      r1 = float(r1)
      r2 = float(r2)
      print ("Random [",r1,";",r2,"] = ",random.uniform(r1, r2))
