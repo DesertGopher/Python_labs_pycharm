@@ -1,4 +1,4 @@
-print("Lab1.1 0022-04")
+print("Lab1 0022-04")
 
 anumber = int(input("Enter your arbitrary number ") )
 bnumber = int(input("Enter the border number "))
