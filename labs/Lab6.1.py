@@ -1,7 +1,7 @@
 import random # для рандомных чисел
 import math # для вычисления факториала и арккосинуса
 print("""
-Lab6 0022-04
+Lab6.1 0022-04
 Functions
 """)
 i = int(1)
