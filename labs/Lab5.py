@@ -3,7 +3,7 @@ string = []
 string2 = []
 print("""
 ______________________________________________
-Type in the list of line words.
+Type in the list of line separated words.
 Example: 
 link 
 site
