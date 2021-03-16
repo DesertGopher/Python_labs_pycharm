@@ -1,4 +1,7 @@
-print("Lab5 0022-04")
+print("""
+Lab6.2 0022-04
+Functions
+""")
 string = []
 string2 = []
 print("""
