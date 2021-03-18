@@ -1,0 +1,1 @@
+print("Lab8 0022-04 - Classes")

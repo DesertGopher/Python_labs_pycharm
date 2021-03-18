@@ -1,4 +1,4 @@
-print("Lab5 0022-04")
+print("Lab5 0022-04 - quantities")
 string = []
 string2 = []
 print("""
@@ -20,7 +20,7 @@ while (True):
 string_set = set(string)
 print("Your quantity: ",string_set)
 space = len(str(string).split())
-print ("Yout quantity contains",space,"words.")
+print("Your quantity contains",space,"words.")
 lenth = str(string)
 print("String lenth =",len(lenth)-(int(space)*4))
 print("Type in new list of",len(lenth)-(int(space)*4),"symbols and same amount of words.")

@@ -1,10 +1,10 @@
 import random # для рандомных чисел
 import math # для вычисления факториала и арккосинуса
-print("Lab3 0022-04")
+print("Lab3 0022-04 - calculator")
 i = int(1)
 chars = set('0123456789$,.-')
 while i < 2:
- print ("""
+ print("""
 ______________________________________________________
 1.Sum   2.Subtraction   3.Multiplication   4.Division   
 5.Degree   6.Module   7.Random   8.Factorial   9.Acos   
@@ -100,10 +100,10 @@ ______________________________________________________
           if any((q not in chars) for q in X):
              X = input("You should enter the number: ")
           elif float(X) > 1 or float(X) < -1:
-             print ("You number must be between 0 and 1 to find acos.")
+             print("You number must be between 0 and 1 to find acos.")
              X = input("Enter the number (-1;1): ")
      X = float(X)
-     print("acos(",X,") = ",math.acos(X), "rad")
-     print("acos(",X,") = ", math.acos(X)*180/math.pi,"°")
+     print("acos(", X, ") = ", math.acos(X), "rad")
+     print("acos(", X, ") = ", math.acos(X)*180/math.pi, "°")
  elif sign == '10':
       exit()

@@ -1,4 +1,0 @@
-Your quantity: {'two', 'three', 'one'}
-Your quantity contains 3 words.
-Your dictionary: {'one': 'three', 'two': 'two', 'three': 'one'}
-Your quantity contains 3 words and keys.

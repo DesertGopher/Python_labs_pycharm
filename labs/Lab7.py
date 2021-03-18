@@ -1,4 +1,4 @@
-print("Lab7 0022-04")
+print("Lab7 0022-04 - Writing to file")
 string = []
 string2 = []
 print("""
