@@ -1,6 +1,6 @@
 import random # для рандомных чисел
 import math # для вычисления факториала и арккосинуса
-print("Lab3 0022-04 - calculator")
+print("Lab8 0022-04 - Classes")
 i = int(1)
 chars = set('0123456789$,.-')
 class Operation:
