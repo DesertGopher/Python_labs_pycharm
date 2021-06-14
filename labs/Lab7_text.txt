@@ -1,0 +1,4 @@
+Your quantity: {'eee'}
+Your quantity contains 2 words.
+Your dictionary: {'eee': 'q'}
+Your quantity contains 2 words and keys.

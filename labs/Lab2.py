@@ -6,9 +6,9 @@ c = 'c'
 S = 'с'
 new_string = ""
 print('\n')
-for i in range(0, l-1):
-     if i != 2:
-         new_string = new_string + string[i]
+for i in range(0, l - 1):
+    if i != 2:
+        new_string = new_string + string[i]
 print(new_string)
 if c or S in string:
     print("There is *C* in your text")
